@@ -1,0 +1,8 @@
+dato lancio dei dadi, calcolare:
+
+- media, varianza e varie grandezze statistiche in funzione a N
+
+
+vedere l'efficenza con tic e toc (tic = parte il timer) toc (stoppa il timer)
+
+
