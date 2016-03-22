@@ -6,6 +6,7 @@
 % Sintetizzare un filtro noi
 
 %caricare qualcosa campionato a 8192Hz
+
 t=[1:length(y)]/8192;
 ynoise=sin(2*pi*t*100);
 ybrutto=y+ynoise/4;
