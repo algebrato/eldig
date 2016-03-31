@@ -12,8 +12,8 @@ x=[zeros(1,100) 1 zeros(1,100)]; %una delta isolata da un po' di zeri
 %B = [1 2 3 2 1];
 %A = [1];                         %dovrebbe essere un sistema FIR
 
-B = [1 2 3 2 1];                          %questo produce un
-A = [1 -0.8];                     %segnale esponenziale decrescente %del tipo: y(n)=0.8 y(n-1)+x(n) con la
+B = [1, -1, 2];                          %questo produce un
+A = [1, -0.8];                     %segnale esponenziale decrescente %del tipo: y(n)=0.8 y(n-1)+x(n) con la
                                   %condizione y(0)=1
                                   %Dove ha il polo? Y(Z) = 0.8 Y(Z)z^-1
                                   %+X(z) --> ricavo Y(z) divido per X(z) e
@@ -24,8 +24,8 @@ A = [1 -0.8];                     %segnale esponenziale decrescente %del tipo: y
 
 y=filter(B,A,x);                 %filter
 
-A=[1];            %questo sistema fa la media mobile di 100 valori
-B=ones(1,100);    %ma in frequenza? 99 zeri sulla circonferenza e 1 in zero
+%A=[1];            %questo sistema fa la media mobile di 100 valori
+%B=ones(1,100);    %ma in frequenza? 99 zeri sulla circonferenza e 1 in zero
                   %quello che e` intuibile in un dominio, non e` banale
                   %sapere quello che succede nell'altro dominio. E` chiaro
                   %cosa stia succedendo nel tempo, ma molto meno chiaro in
