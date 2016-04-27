@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/root/Test_Ise/Test.ncd
+OUTFILE=/root/Test_Ise/Test.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=/root/Test_Ise
+LICENSE=WebPack
+USER_INFO=211186083_0_0_952

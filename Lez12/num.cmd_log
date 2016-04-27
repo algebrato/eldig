@@ -1,0 +1,34 @@
+xst -intstyle ise -ifn "C:/Users/Utente/Dropbox/Lab Elettronica Digitale/Xilinx/Numeri/num.xst" -ofn "C:/Users/Utente/Dropbox/Lab Elettronica Digitale/Xilinx/Numeri/num.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "num.ngc" num.ngd  
+xst -intstyle ise -ifn "C:/Users/Utente/Dropbox/Lab Elettronica Digitale/Xilinx/Numeri/num.xst" -ofn "C:/Users/Utente/Dropbox/Lab Elettronica Digitale/Xilinx/Numeri/num.syr" 
+xst -intstyle ise -ifn "C:/Users/Utente/Dropbox/Lab Elettronica Digitale/Xilinx/Numeri/num.xst" -ofn "C:/Users/Utente/Dropbox/Lab Elettronica Digitale/Xilinx/Numeri/num.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "num.ngc" num.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "num.ngc" num.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o num_map.ncd num.ngd num.pcf 
+par -w -intstyle ise -ol high -mt off num_map.ncd num.ncd num.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml num.twx num.ncd -o num.twr num.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f num.ut num.ncd 
+xst -intstyle ise -ifn "C:/Users/Utente/Dropbox/Lab Elettronica Digitale/Xilinx/Numeri/num.xst" -ofn "C:/Users/Utente/Dropbox/Lab Elettronica Digitale/Xilinx/Numeri/num.syr" 
+xst -intstyle ise -ifn "C:/Users/Utente/Dropbox/Lab Elettronica Digitale/Xilinx/Numeri/num.xst" -ofn "C:/Users/Utente/Dropbox/Lab Elettronica Digitale/Xilinx/Numeri/num.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "num.ngc" num.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o num_map.ncd num.ngd num.pcf 
+par -w -intstyle ise -ol high -mt off num_map.ncd num.ncd num.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml num.twx num.ncd -o num.twr num.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f num.ut num.ncd 
+xst -intstyle ise -ifn "C:/Users/Utente/Dropbox/Lab Elettronica Digitale/Xilinx/Numeri/num.xst" -ofn "C:/Users/Utente/Dropbox/Lab Elettronica Digitale/Xilinx/Numeri/num.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "num.ngc" num.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o num_map.ncd num.ngd num.pcf 
+par -w -intstyle ise -ol high -mt off num_map.ncd num.ncd num.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml num.twx num.ncd -o num.twr num.pcf -ucf Nexys3_Master.ucf 
+xst -intstyle ise -ifn "C:/Users/Utente/Dropbox/Lab Elettronica Digitale/Xilinx/Numeri/num.xst" -ofn "C:/Users/Utente/Dropbox/Lab Elettronica Digitale/Xilinx/Numeri/num.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "num.ngc" num.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o num_map.ncd num.ngd num.pcf 
+par -w -intstyle ise -ol high -mt off num_map.ncd num.ncd num.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml num.twx num.ncd -o num.twr num.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f num.ut num.ncd 
+xst -intstyle ise -ifn "C:/Users/Utente/Dropbox/Lab Elettronica Digitale/Xilinx/Numeri/num.xst" -ofn "C:/Users/Utente/Dropbox/Lab Elettronica Digitale/Xilinx/Numeri/num.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc Nexys3_Master.ucf -p xc6slx16-csg324-3 "num.ngc" num.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o num_map.ncd num.ngd num.pcf 
+par -w -intstyle ise -ol high -mt off num_map.ncd num.ncd num.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml num.twx num.ncd -o num.twr num.pcf -ucf Nexys3_Master.ucf 
+bitgen -intstyle ise -f num.ut num.ncd 
