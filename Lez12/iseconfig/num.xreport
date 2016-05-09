@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <report-views version="2.0" >
  <header>
-  <DateModified>2016-04-21T16:22:33</DateModified>
+  <DateModified>2016-04-28T15:10:08</DateModified>
   <ModuleName>num</ModuleName>
   <SummaryTimeStamp>Unknown</SummaryTimeStamp>
-  <SavedFilePath>C:/Users/Utente/Dropbox/Lab Elettronica Digitale/Xilinx/Numeri/iseconfig/num.xreport</SavedFilePath>
-  <ImplementationReportsDirectory>C:/Users/Utente/Dropbox/Lab Elettronica Digitale/Xilinx/Numeri\</ImplementationReportsDirectory>
+  <SavedFilePath>/home/stefanomandelli/src/eldig/Lez12/iseconfig/num.xreport</SavedFilePath>
+  <ImplementationReportsDirectory>/home/stefanomandelli/src/eldig/Lez12/</ImplementationReportsDirectory>
   <DateInitialized>2016-04-21T15:48:31</DateInitialized>
   <EnableMessageFiltering>false</EnableMessageFiltering>
  </header>

@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "/home/stefanomandelli/src/eldig/contatore_4_cifre/contatore_4_cifre.xst" -ofn "/home/stefanomandelli/src/eldig/contatore_4_cifre/contatore_4_cifre.syr" 
+xst -intstyle ise -ifn "/home/stefanomandelli/src/eldig/contatore_4_cifre/contatore_4_cifre.xst" -ofn "/home/stefanomandelli/src/eldig/contatore_4_cifre/contatore_4_cifre.syr" 

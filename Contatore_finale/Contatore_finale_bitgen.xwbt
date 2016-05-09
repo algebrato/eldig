@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=/home/stefanomandelli/src/eldig/Contatore_finale/Contatore_finale.ncd
+OUTFILE=/home/stefanomandelli/src/eldig/Contatore_finale/Contatore_finale.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=/home/stefanomandelli/src/eldig/Contatore_finale
+LICENSE=WebPack
+USER_INFO=211186083_0_0_952

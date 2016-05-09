@@ -1,0 +1,4 @@
+vhdl work "../cont_1_cifra/cont_1_cifra.vhd"
+vhdl work "../Decoder_7_segmenti/Decoder_7_segmenti.vhd"
+vhdl work "../Cont_4_cfr/Cont_4_cfr.vhd"
+vhdl work "Contatore_finale.vhd"

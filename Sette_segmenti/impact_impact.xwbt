@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=/home/stefanomandelli/src/eldig/Sette_segmenti/impact.xsl
+OUTFILE=/home/stefanomandelli/src/eldig/Sette_segmenti/impact.xsl
+FAMILY=Single
+PART=Single
+WORKINGDIR=/home/stefanomandelli/src/eldig/Sette_segmenti
+LICENSE=iMPACT
+USER_INFO=iMPACT

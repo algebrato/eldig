@@ -1,0 +1,46 @@
+xst -intstyle ise -ifn "/home/stefanomandelli/src/eldig/Sette_segmenti/sette_seg.xst" -ofn "/home/stefanomandelli/src/eldig/Sette_segmenti/sette_seg.syr" 
+xst -intstyle ise -ifn "/home/stefanomandelli/src/eldig/Sette_segmenti/sette_seg.xst" -ofn "/home/stefanomandelli/src/eldig/Sette_segmenti/sette_seg.syr" 
+xst -intstyle ise -ifn "/home/stefanomandelli/src/eldig/Sette_segmenti/sette_seg.xst" -ofn "/home/stefanomandelli/src/eldig/Sette_segmenti/sette_seg.syr" 
+xst -intstyle ise -ifn "/home/stefanomandelli/src/eldig/Sette_segmenti/sette_seg.xst" -ofn "/home/stefanomandelli/src/eldig/Sette_segmenti/sette_seg.syr" 
+xst -intstyle ise -ifn "/home/stefanomandelli/src/eldig/Sette_segmenti/sette_seg.xst" -ofn "/home/stefanomandelli/src/eldig/Sette_segmenti/sette_seg.syr" 
+xst -intstyle ise -ifn "/home/stefanomandelli/src/eldig/Sette_segmenti/sette_seg.xst" -ofn "/home/stefanomandelli/src/eldig/Sette_segmenti/sette_seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/stefanomandelli/src/eldig/Lez12/Nexys3_Master.ucf -p xc6slx16-csg324-3 sette_seg.ngc sette_seg.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/stefanomandelli/src/eldig/Lez12/Nexys3_Master.ucf -p xc6slx16-csg324-3 sette_seg.ngc sette_seg.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/stefanomandelli/src/eldig/Lez12/Nexys3_Master.ucf -p xc6slx16-csg324-3 sette_seg.ngc sette_seg.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sette_seg_map.ncd sette_seg.ngd sette_seg.pcf 
+xst -intstyle ise -ifn "/home/stefanomandelli/src/eldig/Sette_segmenti/sette_seg.xst" -ofn "/home/stefanomandelli/src/eldig/Sette_segmenti/sette_seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/stefanomandelli/src/eldig/Lez12/Nexys3_Master.ucf -p xc6slx16-csg324-3 sette_seg.ngc sette_seg.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sette_seg_map.ncd sette_seg.ngd sette_seg.pcf 
+xst -intstyle ise -ifn "/home/stefanomandelli/src/eldig/Sette_segmenti/sette_seg.xst" -ofn "/home/stefanomandelli/src/eldig/Sette_segmenti/sette_seg.syr" 
+xst -intstyle ise -ifn "/home/stefanomandelli/src/eldig/Sette_segmenti/sette_seg.xst" -ofn "/home/stefanomandelli/src/eldig/Sette_segmenti/sette_seg.syr" 
+xst -intstyle ise -ifn "/home/stefanomandelli/src/eldig/Sette_segmenti/sette_seg.xst" -ofn "/home/stefanomandelli/src/eldig/Sette_segmenti/sette_seg.syr" 
+xst -intstyle ise -ifn "/home/stefanomandelli/src/eldig/Sette_segmenti/sette_seg.xst" -ofn "/home/stefanomandelli/src/eldig/Sette_segmenti/sette_seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/stefanomandelli/src/eldig/Lez12/Nexys3_Master.ucf -p xc6slx16-csg324-3 sette_seg.ngc sette_seg.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sette_seg_map.ncd sette_seg.ngd sette_seg.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/stefanomandelli/src/eldig/Lez12/Nexys3_Master.ucf -p xc6slx16-csg324-3 sette_seg.ngc sette_seg.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/stefanomandelli/src/eldig/Lez12/Nexys3_Master.ucf -p xc6slx16-csg324-3 sette_seg.ngc sette_seg.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sette_seg_map.ncd sette_seg.ngd sette_seg.pcf 
+par -w -intstyle ise -ol high -mt off sette_seg_map.ncd sette_seg.ncd sette_seg.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sette_seg.twx sette_seg.ncd -o sette_seg.twr sette_seg.pcf 
+bitgen -intstyle ise -f sette_seg.ut sette_seg.ncd 
+xst -intstyle ise -ifn "/home/stefanomandelli/src/eldig/Sette_segmenti/sette_seg.xst" -ofn "/home/stefanomandelli/src/eldig/Sette_segmenti/sette_seg.syr" 
+xst -intstyle ise -ifn "/home/stefanomandelli/src/eldig/Sette_segmenti/sette_seg.xst" -ofn "/home/stefanomandelli/src/eldig/Sette_segmenti/sette_seg.syr" 
+xst -intstyle ise -ifn "/home/stefanomandelli/src/eldig/Sette_segmenti/sette_seg.xst" -ofn "/home/stefanomandelli/src/eldig/Sette_segmenti/sette_seg.syr" 
+xst -intstyle ise -ifn "/home/stefanomandelli/src/eldig/Sette_segmenti/sette_seg.xst" -ofn "/home/stefanomandelli/src/eldig/Sette_segmenti/sette_seg.syr" 
+xst -intstyle ise -ifn "/home/stefanomandelli/src/eldig/Sette_segmenti/sette_seg.xst" -ofn "/home/stefanomandelli/src/eldig/Sette_segmenti/sette_seg.syr" 
+xst -intstyle ise -ifn "/home/stefanomandelli/src/eldig/Sette_segmenti/sette_seg.xst" -ofn "/home/stefanomandelli/src/eldig/Sette_segmenti/sette_seg.syr" 
+xst -intstyle ise -ifn "/home/stefanomandelli/src/eldig/Sette_segmenti/sette_seg.xst" -ofn "/home/stefanomandelli/src/eldig/Sette_segmenti/sette_seg.syr" 
+xst -intstyle ise -ifn "/home/stefanomandelli/src/eldig/Sette_segmenti/sette_seg.xst" -ofn "/home/stefanomandelli/src/eldig/Sette_segmenti/sette_seg.syr" 
+xst -intstyle ise -ifn "/home/stefanomandelli/src/eldig/Sette_segmenti/sette_seg.xst" -ofn "/home/stefanomandelli/src/eldig/Sette_segmenti/sette_seg.syr" 
+xst -intstyle ise -ifn "/home/stefanomandelli/src/eldig/Sette_segmenti/sette_seg.xst" -ofn "/home/stefanomandelli/src/eldig/Sette_segmenti/sette_seg.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/stefanomandelli/src/eldig/Lez12/Nexys3_Master.ucf -p xc6slx16-csg324-3 sette_seg.ngc sette_seg.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/stefanomandelli/src/eldig/Lez12/Nexys3_Master.ucf -p xc6slx16-csg324-3 sette_seg.ngc sette_seg.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/stefanomandelli/src/eldig/Lez12/Nexys3_Master.ucf -p xc6slx16-csg324-3 sette_seg.ngc sette_seg.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sette_seg_map.ncd sette_seg.ngd sette_seg.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/stefanomandelli/src/eldig/Lez12/Nexys3_Master.ucf -p xc6slx16-csg324-3 sette_seg.ngc sette_seg.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/stefanomandelli/src/eldig/Lez12/Nexys3_Master.ucf -p xc6slx16-csg324-3 sette_seg.ngc sette_seg.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc /home/stefanomandelli/src/eldig/Lez12/Nexys3_Master.ucf -p xc6slx16-csg324-3 sette_seg.ngc sette_seg.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sette_seg_map.ncd sette_seg.ngd sette_seg.pcf 
+par -w -intstyle ise -ol high -mt off sette_seg_map.ncd sette_seg.ncd sette_seg.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml sette_seg.twx sette_seg.ncd -o sette_seg.twr sette_seg.pcf 
+bitgen -intstyle ise -f sette_seg.ut sette_seg.ncd 

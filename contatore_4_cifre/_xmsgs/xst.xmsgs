@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="error" file="HDLCompiler" num="806" delta="old" >"/home/stefanomandelli/src/eldig/contatore_4_cifre/contatore_4_cifre.vhd" Line 42: Syntax error near &quot;<arg fmt="%s" index="1">Contatore_1_cifra</arg>&quot;.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="old" >"/home/stefanomandelli/src/eldig/contatore_4_cifre/contatore_4_cifre.vhd" Line 48: &lt;<arg fmt="%s" index="1">clock_timer_globale</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="old" >"/home/stefanomandelli/src/eldig/contatore_4_cifre/contatore_4_cifre.vhd" Line 49: &lt;<arg fmt="%s" index="1">enable</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="old" >"/home/stefanomandelli/src/eldig/contatore_4_cifre/contatore_4_cifre.vhd" Line 53: &lt;<arg fmt="%s" index="1">npreset</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="old" >"/home/stefanomandelli/src/eldig/contatore_4_cifre/contatore_4_cifre.vhd" Line 54: &lt;<arg fmt="%s" index="1">n0</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="192" delta="old" >"/home/stefanomandelli/src/eldig/contatore_4_cifre/contatore_4_cifre.vhd" Line 54: Actual of formal <arg fmt="%s" index="1">out</arg> port <arg fmt="%s" index="2">n</arg> cannot be an expression
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="old" >"/home/stefanomandelli/src/eldig/contatore_4_cifre/contatore_4_cifre.vhd" Line 55: &lt;<arg fmt="%s" index="1">enable_0_to_1</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="192" delta="old" >"/home/stefanomandelli/src/eldig/contatore_4_cifre/contatore_4_cifre.vhd" Line 55: Actual of formal <arg fmt="%s" index="1">out</arg> port <arg fmt="%s" index="2">enable_out</arg> cannot be an expression
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="old" >"/home/stefanomandelli/src/eldig/contatore_4_cifre/contatore_4_cifre.vhd" Line 57: &lt;<arg fmt="%s" index="1">clock_timer_globale</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="old" >"/home/stefanomandelli/src/eldig/contatore_4_cifre/contatore_4_cifre.vhd" Line 58: &lt;<arg fmt="%s" index="1">enable_0_to_1</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="old" >"/home/stefanomandelli/src/eldig/contatore_4_cifre/contatore_4_cifre.vhd" Line 62: &lt;<arg fmt="%s" index="1">npreset</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="old" >"/home/stefanomandelli/src/eldig/contatore_4_cifre/contatore_4_cifre.vhd" Line 63: &lt;<arg fmt="%s" index="1">n1</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="192" delta="old" >"/home/stefanomandelli/src/eldig/contatore_4_cifre/contatore_4_cifre.vhd" Line 63: Actual of formal <arg fmt="%s" index="1">out</arg> port <arg fmt="%s" index="2">n</arg> cannot be an expression
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="old" >"/home/stefanomandelli/src/eldig/contatore_4_cifre/contatore_4_cifre.vhd" Line 64: &lt;<arg fmt="%s" index="1">enable_1_to_2</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="192" delta="old" >"/home/stefanomandelli/src/eldig/contatore_4_cifre/contatore_4_cifre.vhd" Line 64: Actual of formal <arg fmt="%s" index="1">out</arg> port <arg fmt="%s" index="2">enable_out</arg> cannot be an expression
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="old" >"/home/stefanomandelli/src/eldig/contatore_4_cifre/contatore_4_cifre.vhd" Line 66: &lt;<arg fmt="%s" index="1">clock_timer_globale</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="old" >"/home/stefanomandelli/src/eldig/contatore_4_cifre/contatore_4_cifre.vhd" Line 67: &lt;<arg fmt="%s" index="1">enable_1_to_2</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="old" >"/home/stefanomandelli/src/eldig/contatore_4_cifre/contatore_4_cifre.vhd" Line 71: &lt;<arg fmt="%s" index="1">npreset</arg>&gt; is not declared.
+</msg>
+
+<msg type="error" file="HDLCompiler" num="69" delta="old" >"/home/stefanomandelli/src/eldig/contatore_4_cifre/contatore_4_cifre.vhd" Line 72: &lt;<arg fmt="%s" index="1">n2</arg>&gt; is not declared.
+</msg>
+
+</messages>
+
